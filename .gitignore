@@ -1,0 +1,41 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Local runtime data / generated user content
+uploads/*
+!uploads/.gitkeep
+reference_images/*
+!reference_images/.gitkeep
+echomind_database/*
+!echomind_database/.gitkeep
+
+# Local model weights / caches
+*.pt
+*.pth
+*.bin
+*.safetensors
+.cache/
+.huggingface/
+transformers_cache/
+torch_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
